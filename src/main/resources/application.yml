@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: s3
+  cloud:
+    aws:
+      s3:
+        endpoint: http://localhost:4566
+        region: us-east-1
+        path-style-access-enabled: true
+      credentials:
+        access-key: test
+        secret-key: test
